@@ -1,0 +1,30 @@
+.conteiner {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.box {
+  background-color: aqua;
+  cursor: pointer;
+  flex-basis: 200px;
+  margin: 0 auto;
+  border: 5px solid rgb(92, 51, 51);
+  border-right-color: rgb(153, 153, 233);
+  border-bottom-color: rgb(47, 85, 209);
+  border-left-color: rgb(18, 15, 214);
+  border-top-color: transparent;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 20px grey;
+}
+
+.box2 {
+  /* align-self: flex-start; */
+}
+.background {
+  background-color: brown;
+}
